@@ -16,18 +16,16 @@ def gen_data(parsed):
     temp_out = []
     
     for line in parsed:
+        temp_out.append("No activity")
         if ('Started' in line['message'] or 'Consumed' in line['message']):
             for sig in sigs:
                 if sig in line['message']:
-                    temp_out.append(line)
-    
-    #TODO: sort temp_out by dates, get running times, write to output csv file
-                    
+                    temp_out[-1] = "Used " + sig           
 
 if __name__ == "__main__":
     
     p = Parser()
-    f = open('syslog', encoding='utf8')
+    f = open('../logfiles/syslog', encoding='utf8')
     l = f.readlines()
     
     out = []
