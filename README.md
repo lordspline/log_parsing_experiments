@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project use the outcomes of our research into log summarization to extract user activity related to firefox from a syslog file.
+In this project we use the outcomes of our research into log summarization to extract user activity related to firefox from a syslog file.
 
 ## Setup 
 
