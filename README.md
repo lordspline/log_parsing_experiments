@@ -37,4 +37,4 @@ Simply call the file:
 
 <img src="./images/2.png" alt="image2" width="800"/>
 
-As pointed out in the project reports, this can be done for virtually any application as long as the application's identifying "signature" is known.
+As pointed out in the project reports, this can be done for virtually any application as long as the application's identifying "signature" is known. We can find this out for any application by using a log clustering algorithm such as IPLoM, examining the output clusters and comparing them with the actual activity being carried out at the time.
